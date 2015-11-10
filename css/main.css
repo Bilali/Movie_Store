@@ -1,0 +1,79 @@
+/*=============================================================
+                      Movie Store.css
+=============================================================*/
+body{
+	font-family: arial verdana sans-serif;
+	font-size: 20px;
+	background-color: #343434;
+	color: #266BD2;
+}
+h1,h2,hgroup{
+	font-weight: bold;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+h3{
+	padding-left: 20px;
+}
+
+/*=============================================================
+					   Navigation.css
+=============================================================*/
+nav{
+	background-color: #FFFFFF;
+	font-weight: bold;
+}
+nav ul {
+	margin: 0px;
+	padding: 0px 0px 0px 150px;
+}
+nav li {
+	display: inline;
+	margin-right: 0px;
+	padding: 0px 120px 0px 0px;
+}
+nav li a{
+	text-decoration: none;
+	color: #2E2E2E; 
+}
+nav li a:hover{
+	color: #F5243D;
+}
+#line{
+	background-color: #343434;
+	height:;
+}
+/*=============================================================
+                        Section.css 
+=============================================================*/
+section{
+	width:75%;
+}
+article{
+	padding:0px 0px 10px 20px;
+}
+img{
+	border: 3px solid #2F84E0;
+	padding: 10px 10px 10px 10px;
+}
+.entry{
+	width:280px;
+	float:left;
+}
+aside{
+	width:25%;
+	height:952px;
+}
+section, aside{
+	background-color: #FFFFFF;
+	float:left;
+}
+/*=============================================================
+						Foooter.css
+=============================================================*/
+footer{
+	text-align: center;
+	font-weight: bold;
+	width:100%;
+	float:right;
+}
